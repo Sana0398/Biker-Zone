@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <header class="mx-auto container poppins-font px-5 lg: pt-12">
+    <header class="mx-auto lg:container poppins-font px-5 lg: pt-12">
         <div class="navbar-div ">
             <div class="navbar">
                 <div class="flex-1">
@@ -150,27 +150,27 @@
 
     </header>
     <main>
-      <section class="poppins-font mx-auto container mb-32">
+      <section class="poppins-font mx-auto lg:container mb-32">
         <div class="text-center flex flex-col justify-center items-center">
           <h3 class="text-4xl font-semibold text-black">Fetured Bikes In This Year</h3>
           <p class="font-semibold text-[#E76F51]">Best bike collection</p>
           <hr class=" bg-[#E76F51] w-14 h-0.5 ">
         </div>
         <div class="pt-12 flex flex-col items-center justify-center lg:flex-row lg:justify-around"> 
-          <img class="lg: w-1/4 h-3/4" src="./images/others/extrabike.png" alt="">
-          <img class="lg: w-1/4 h-3/4 " src="./images/others/feature-bike.png" alt="">
-          <img class="lg: w-1/4 h-3/4 " src="./images/others/extrabike.png" alt="">
+          <img class="w-full lg:w-1/4 h-3/4" src="./images/others/extrabike.png" alt="">
+          <img class="w-full lg:w-1/4 h-3/4 " src="./images/others/feature-bike.png" alt="">
+          <img class="w-full lg:w-1/4 h-3/4 " src="./images/others/extrabike.png" alt="">
         </div>
         </section>
 
-        <section class="poppins-font mx-auto container mb-32">
+        <section class="poppins-font mx-auto lg:container mb-32">
           <div class="latest">
             <div class="">
               <div class="flex flex-col items-center">
                 <h3 class="mb-12 font-semibold text-5xl text-[#0A0826]">Latest News</h3>
               </div>
 
-              <div class="lg:flex justify-around items-center">
+              <div class="flex justify-center items-center flex-col lg:flex-row">
               <div class="card bg-base-100 w-96 shadow-xl">
                 <figure>
                   <img
@@ -188,7 +188,7 @@
 
               <div class="card bg-base-100 w-96 shadow-xl">
                 <figure>
-                  <img
+                  <img class=""
                     src="./images/others/latest2.png"
                     alt="Shoes" />
                 </figure>
@@ -196,7 +196,7 @@
                   <h2 class="card-title">Ducati XDIAVEL S-73</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions justify-start">
-                    <button class="btn text-[#E76F51] bg-white">Read More</button>
+                    <button class="btn text-[#E76F51] bg-white border-solid border-[#E76F51]">Read More</button>
                   </div>
                 </div>
               </div>
@@ -211,7 +211,7 @@
                   <h2 class="card-title">Ducati XDIAVEL S-73</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                   <div class="card-actions justify-start">
-                    <button class="btn bg-[#E76F51] text-white">Read More</button>
+                    <button class="btn text-[#E76F51] bg-white border-solid border-[#E76F51]">Read More</button>
                   </div>
                 </div>
               </div>
@@ -220,6 +220,11 @@
 
             </div>
           </div>
+        </section>
+
+        <section class="poppins-font mx-auto lg:container mb-32">
+          <h3 class="font-semibold text-5xl text-center text-black">Happy <span class="text-[#E76F51]">Clients Say</span></h3>
+
         </section>
 
     </main>
